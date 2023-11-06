@@ -1,11 +1,19 @@
+body{
+    background-color: wheat;
+}
+
 ul {
     list-style-type: none;
     display: flex;
-    align-items: center;
-    margin: 5;
-    padding: 5;
 }
 
 li {
-    padding: 10px;
+    padding: 5px;
+}
+
+.header_inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
 }
