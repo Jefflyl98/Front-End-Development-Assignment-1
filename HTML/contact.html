@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
+
+        <link rel="stylesheet" type="text/css" href="../CSS/normalize.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <header id="main_header">
+            <div class="header_inner">
+                <nav id="main_nav">
+                    <ul>
+                        <li>
+                            <a href="Index.html" title="HOME"><span>HOME</span></a>
+                        </li>
+                        <li>
+                            <a href="streams.html" title="STREAMS"><span>STREAMS</span></a>
+                        </li>
+                        <li>
+                            <a href="https://nijisanji-store.com/collections/selen-tatsuki" title="MERCHANDISE" target="_blank"><span>MERCHANDISE</span></a>
+                        </li>
+                        <li>
+                            <a href="about.html" title="ABOUT"><span>ABOUT</span></a>
+                        </li>
+                        <li>
+                            <a href="newsfeed.html" title="NEWS FEED"><span>NEWS FEED</span></a>
+                        </li>
+                        <li>
+                            <a href="contact.html" title="CONTACT"><span>CONTACT</span></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div id="header_r">
+                    <ul>
+                        <li><a href="https://twitter.com/selen_tatsuki" title="Twitter" target="_blank">
+                                <img src="../IMAGE/twitter.png" alt="Twitter Logo">
+                            </a>
+                        </li>
+                        <li><a href="https://www.tiktok.com/@selen_tatsuki?lang=en" title="Tiktok" target="_blank">
+                                <img src="../IMAGE/tiktok.png" alt="Tiktok Logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCKQi12nOGZsJ5nOuCTHErmA" title="Youtube" target="_blank">
+                                <img src="../IMAGE/youtube.png" alt="Youtube Logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitch.tv/selentatsuki" title="Twitch" target="_blank">
+                                <img src="../IMAGE/twitch.png" alt="Twitch Logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="holder">
+            <div id="contact_form">
+                <!-- Simple Contact Form -->
+                <form id="contact-form" method="POST" action="sendmail.php">
+                    <div class="form-row form-error" style="display:none;"></div>
+                    <div class="form-row">
+                        <label for="contact-form-name">Name:</label>
+                        <input id="contact-form-name" class="form-input" type="text" name="name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-email">Email:</label>
+                        <input id="contact-form-email" class="form-input" type="email" name="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-phone">Phone:</label>
+                        <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-message">Message:</label>
+                        <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <button id="show-popup">Show Contact Form</button>
+                </form>
+                
+                <!-- Pop-up Contact Form -->
+                <div id="popup-form-container" style="display:none;">
+                    <form>
+                        <div class="form-row form-error" style="display:none;"></div>
+                        <div class="form-row">
+                            <label for="contact-form-name">Name:</label>
+                            <input id="contact-form-name" class="form-input" type="text" name="name" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="contact-form-email">Email:</label>
+                            <input id="contact-form-email" class="form-input" type="email" name="email" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="contact-form-phone">Phone:</label>
+                            <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+                        </div>
+                        <div class="form-row">
+                            <label for="contact-form-message">Message:</label>
+                            <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                        <button type="button" id="close-popup">Close</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="end">
+            <span>Made by Jefferson (S10262419)<span>
+        </div>
+
+        <script src="../JAVASCRIPT/script.js"></script>
+    </body>
+</html>
