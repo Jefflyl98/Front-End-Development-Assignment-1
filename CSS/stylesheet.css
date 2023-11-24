@@ -188,6 +188,7 @@ span.date{
 }
 
 #info{
+    align-items: center;
     border-style: solid;
     border-color: white;
     border-width: thin;
