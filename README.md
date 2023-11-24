@@ -105,7 +105,7 @@ https://www.oneokrock.com/en/tour/
 https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The information for the about page comes from [Selen Tatsuki VTuber Wiki](https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki)
 
 ### Media
 - https://toppng.com/free-image/twitter-logo-facebook-logo-instagram-logo-instagram-PNG-free-PNG-Images_177131
