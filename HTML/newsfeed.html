@@ -32,7 +32,7 @@
                             <a href="newsfeed.html" title="NEWS FEED"><span>NEWS FEED</span></a>
                         </li>
                         <li>
-                            <a href="contact.html" title="CONTACT"><span>CONTACT</span></a>
+                            <button id="show-popup">CONTACT</button>
                         </li>
                     </ul>
                 </nav>
@@ -71,6 +71,34 @@
         <div id="end">
             <span>Made by Jefferson (S10262419)<span>
         </div>
+
+        <div id="contact_form">            
+            <!-- Pop-up Contact Form -->
+            <div id="popup-form-container" style="display:none;">
+                <form id="contact-form" method="POST" action="sendmail.php">
+                    <div class="form-row form-error" style="display:none;"></div>
+                    <div class="form-row">
+                        <label for="contact-form-name">Name:</label>
+                        <input id="contact-form-name" class="form-input" type="text" name="name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-email">Email:</label>
+                        <input id="contact-form-email" class="form-input" type="email" name="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-phone">Phone:</label>
+                        <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-message">Message:</label>
+                        <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <button type="button" id="close-popup">Close</button>
+                </form>
+            </div>
+        </div>
+        <script src="../JAVASCRIPT/script.js"></script>
         
     </body>
 </html>

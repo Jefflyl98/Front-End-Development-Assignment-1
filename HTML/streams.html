@@ -32,7 +32,7 @@
                             <a href="newsfeed.html" title="NEWS FEED"><span>NEWS FEED</span></a>
                         </li>
                         <li>
-                            <a href="contact.html" title="CONTACT"><span>CONTACT</span></a>
+                            <button id="show-popup">CONTACT</button>
                         </li>
                     </ul>
                 </nav>
@@ -62,14 +62,47 @@
             </div>
         </header>
 
-        <div class="page_title">
-            <h1>STREAMS</h1>
-        </div>
-
         <div class="content">
+            <div class="page_title">
+                <h1>STREAMS</h1>
+            </div>
             <div>Track past streams and events</div>
             <br>
             <div>
+                <div class="lines"></div>
+                <div>
+                    <span class="date">THU, 14 SEP 2023</span>
+                </div>
+                <div class="event_details">
+                    <span class="event_name">Apex Legends - Shibuyahal Custom w/@surefour & @Mande_</span>
+                    <a href="https://www.youtube.com/watch?v=e0m8zYJKiYs&ab_channel=SelenTatsuki%E3%80%90NIJISANJIEN%E3%80%91" target="_blank">
+                        <button> Stream Link</button>
+                    </a>
+                </div>
+
+                <div class="lines"></div>
+                <div>
+                    <span class="date">THU, 10 AUG 2023</span>
+                </div>
+                <div class="event_details">
+                    <span class="event_name">Apex Legends - Shibuyahal Custom w/@NiceWigg & @Minustempo</span>
+                    <a href="https://www.youtube.com/watch?v=ADPGgC3vhVI&ab_channel=SelenTatsuki%E3%80%90NIJISANJIEN%E3%80%91" target="_blank">
+                        <button> Stream Link</button>
+                    </a>
+                </div>
+
+                <div class="lines"></div>
+                <div>
+                    <span class="date">FRI, 19 MAY 2023</span>
+                </div>
+                <div class="event_details">
+                    <span class="event_name">Apex Legends - Shibuyahal Custom w/@surefour & @oh_Nocturnal</span>
+                    <a href="https://www.youtube.com/watch?v=lqY6_XNe_nY&ab_channel=SelenTatsuki%E3%80%90NIJISANJIEN%E3%80%91" target="_blank">
+                        <button> Stream Link</button>
+                    </a>
+                </div>
+
+                <div class="lines"></div>
                 <div>
                     <span class="date">Sat, 15 APR 2023</span>
                 </div>
@@ -80,53 +113,54 @@
                     </a>
                 </div>
 
+                <div class="lines"></div>
                 <div>
                     <span class="date">Sun, 22 JAN 2023</span>
                 </div>
                 <div class="event_details">
                     <span class="event_name">WrestleSanji 2023</span>
-                    <a href="" target="_blank">
+                    <a href="https://www.youtube.com/watch?v=BGOCpDmOhkA&ab_channel=SelenTatsuki%E3%80%90NIJISANJIEN%E3%80%91" target="_blank">
                         <button> Stream Link</button>
                     </a>
                 </div>
-
-                <div>
-                    <span class="date">???, 10 AUG 2023</span>
-                </div>
-                <div class="event_details">
-                    <span class="event_name">Apex Legends - Shibuyahal Custom w/@NiceWigg & @Minustempo</span>
-                    <a href="" target="_blank">
-                        <button> Stream Link</button>
-                    </a>
-                </div>
-
-                <div>
-                    <span class="date">???, 19 MAY 2023</span>
-                </div>
-                <div class="event_details">
-                    <span class="event_name">Apex Legends - Shibuyahal Custom w/@surefour & @oh_Nocturnal</span>
-                    <a href="" target="_blank">
-                        <button> Stream Link</button>
-                    </a>
-                </div>
-
-                <div>
-                    <span class="date">???, 14 SEP 2023</span>
-                </div>
-                <div class="event_details">
-                    <span class="event_name">Apex Legends - Shibuyahal Custom w/@surefour & @Mande_</span>
-                    <a href="" target="_blank">
-                        <button> Stream Link</button>
-                    </a>
-                </div>
+                <div class="lines"></div>
+                
             </div>
         </div>
-
-        <div id="holder"></div>
+        
+        <br>
 
         <div id="end">
             <span>Made by Jefferson (S10262419)<span>
         </div>
+
+        <div id="contact_form">            
+            <!-- Pop-up Contact Form -->
+            <div id="popup-form-container" style="display:none;">
+                <form id="contact-form" method="POST" action="sendmail.php">
+                    <div class="form-row form-error" style="display:none;"></div>
+                    <div class="form-row">
+                        <label for="contact-form-name">Name:</label>
+                        <input id="contact-form-name" class="form-input" type="text" name="name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-email">Email:</label>
+                        <input id="contact-form-email" class="form-input" type="email" name="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-phone">Phone:</label>
+                        <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-message">Message:</label>
+                        <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <button type="button" id="close-popup">Close</button>
+                </form>
+            </div>
+        </div>
+        <script src="../JAVASCRIPT/script.js"></script>
 
     </body>
 </html>

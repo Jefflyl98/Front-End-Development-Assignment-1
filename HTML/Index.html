@@ -32,10 +32,11 @@
                             <a href="newsfeed.html" title="NEWS FEED"><span>NEWS FEED</span></a>
                         </li>
                         <li>
-                            <a href="contact.html" title="CONTACT"><span>CONTACT</span></a>
+                            <button id="show-popup">CONTACT</button>
                         </li>
                     </ul>
                 </nav>
+                
 
                 <div id="header_r">
                     <ul>
@@ -62,24 +63,45 @@
             </div>
         </header>
 
+        
+
         <div id="bg_main">
             <picture>
+                <div id="bg_text">SELEN TATSUKI</div>
                 <img src="../IMAGE/Selen_Tatsuki_Banner.png" alt="background">
             </picture>
-            <div id="bg_text">SELEN TATSUKI</div>
-        </div>
-
-
-        <div id="welcome">
-            <h1>Welcome</h1>
-            <br>
-            <P>This website will give you a comprehensive guide about Selen Tatsuki</P>
-            <p>A sky dragon descended from the moon and joined Nijisanji EN</p>
         </div>
 
         <div id="end">
             <span>Made by Jefferson (S10262419)<span>
         </div>
 
+        <div id="contact_form">            
+            <!-- Pop-up Contact Form -->
+            <div id="popup-form-container" style="display:none;">
+                <form id="contact-form" method="POST" action="sendmail.php">
+                    <div class="form-row form-error" style="display:none;"></div>
+                    <div class="form-row">
+                        <label for="contact-form-name">Name:</label>
+                        <input id="contact-form-name" class="form-input" type="text" name="name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-email">Email:</label>
+                        <input id="contact-form-email" class="form-input" type="email" name="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-phone">Phone:</label>
+                        <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+                    </div>
+                    <div class="form-row">
+                        <label for="contact-form-message">Message:</label>
+                        <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <button type="button" id="close-popup">Close</button>
+                </form>
+            </div>
+        </div>
+        <script src="../JAVASCRIPT/script.js"></script>
     </body>
 </html>
