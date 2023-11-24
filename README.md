@@ -96,6 +96,7 @@ For any scenarios that have not been automated, test the user stories manually a
    1. Test the website and document and issue found to be addressed and corrected.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- The respective element should increase / decrease its size according to how big or small the screen size are.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 - When submitting the contact form unable to access the php.
