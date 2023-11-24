@@ -30,7 +30,7 @@ function showPopupForm() {
   }
   
   function isValidPhoneNumber(phone) {
-    const phoneRegex = /^\d{10}$/;
+    const phoneRegex = /^\d{8,}$/;
     return phoneRegex.test(phone);
   }
   
