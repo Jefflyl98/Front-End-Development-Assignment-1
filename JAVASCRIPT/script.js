@@ -57,8 +57,6 @@ function showPopupForm() {
     errorElement.style.display = "block";
   }
   
-  // Existing code...
-
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById('show-popup').addEventListener('click', () => {
     showPopupForm();
@@ -72,5 +70,3 @@ document.addEventListener("DOMContentLoaded", () => {
     hidePopupForm();
   });
 });
-
-// Existing code...
