@@ -22,21 +22,23 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-- Biography : Delve into Selen's origin as a sky dragon from the moon, her unique personality traits and her goals as a vtuber.
-- Lore : Learn more about Selen's dragon lore and her role as a dragon racer.
+- Biography : Delve into Selen's origin as a sky dragon from the moon and her unique personality traits.
 - Stream showcase : Browse through a curated list of Selen's streams on major events she has attended.
-- Creative corner : Discover Selen's original songs and covers.
-- Fan Art Gallery : Explore a collection of artwork inspired by Selen's personality from her dedicated fanbase.
+- Creative corner : Discover Selen's original songs and video.
+- Twitter News Feed : Catch the latest announcements from Selen.
 - Merchandise Store : Offer official Selen Tatsuki merchandise for fans to express their support.
+- Popup Contact Form: A form to get in touch for questions, feedback or just sending a message.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Biography: Learn about Selen's unique personality traits and information in the About Page.
+- Stream Showcase: Dive into handpicked selection of Selen's streams, providing users with a glimpse of events she has attended in the Stream Page.
+- Creative Corner: Uncover Selen's musical talent and video ideas in the About Page.
+- Twitter News Feed: Stay up to date on the latest new from Selen's world through her twitter news feed, regarding announcement and real-time updates.
+- Merchandise Store: Explore and purchase official merchandise of Selen to show your support. The store offers a wide variety of prodcuts for fans.
+- Popup Contact Form: Provide a quick and user-friendly way to get in touch with Selen's Community, by prompting user to fill out their name,email,contact and a message.
 
 ### Features Left to Implement
-- Another feature idea
+- Nil
 
 ## Technologies Used
 
@@ -52,6 +54,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - **HTML5** is the foundation of the website's structure and content
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
     - **CSS3** is reponsible for the website's visusal appearance, defining the styles for fonts, colors, layouts, etc.
+  - [Javascript](https://www.javascript.com)
+    - **Javascript** is employed for enhancing interactivity and adding features to website.
+  - [PHP](https://www.php.net)
+    - **PHP** is used for server-side scripting.
 
 
 ## Testing
@@ -60,7 +66,7 @@ For any scenarios that have not been automated, test the user stories manually a
 
 1. Navigating the website
    1. Open the website.
-   2. Verify all navigations and key section are displayed, including the biography, lore, stream showcase, creative corner and fan art gallery.
+   2. Verify all navigations and key section are displayed, including the biography, stream showcase, creative corner and News Feed.
    3. Click on each navigation link and ensure it redirects to their corresponding section in the website.
 2. Exploring the Biography section
    1. Access the Biography section.
@@ -76,29 +82,38 @@ For any scenarios that have not been automated, test the user stories manually a
    2. Verify the showcase of Selen's songs and covers
    3. Check for embedded video player and clear description of each work.
    4. Attempt to play the video player and ensure smooth playback and audio quality.
-5. Appreciating the fan art
-   1. Navigate to the fan art gallery section
-   2. Verify the gallery showcase the fan art inspired by Selen's character
+5. Check the twitter news feed
+   1. Navigate to the twitter news feed page
+   2. Verify the page shows the news feed from Selen's twitter profile.
    3. Check for the clarity of the images and description of each artwork.
-6. Screen Size compatability
+6. Contact form interaction
+   1. Open the popup contact form.
+   2. Test whether the functions work.
+7. Screen Size compatability
    1. Verify the layout and content adapts seamlessly to various screen sizes, from desktop to tablets and mobile devies.
-7. Testing for bugs and issues
+8. Testing for bugs and issues
    1. Test the website and document and issue found to be addressed and corrected.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- When submitting the contact form unable to access the php.
 
 ## Credits
+https://www.oneokrock.com/en/tour/
+https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- https://toppng.com/free-image/twitter-logo-facebook-logo-instagram-logo-instagram-PNG-free-PNG-Images_177131
+- https://nohat.cc/f/twitter-youtube-transparent-white-twitter-logo/m2H7G6A0G6m2A0K9-201907242210.html
+- https://www.pxpng.com/photo/8535/tiktok-logo-png
+- https://www.hiclipart.com/free-transparent-background-png-clipart-iolii
+- https://drive.google.com/file/d/1KKLsWTzPtclgcn_kd-V3LnvWB4xg_0TY/view
+- https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki/Gallery
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from One Ok Rock website and virtualyoutube fandom wikipedia website.
