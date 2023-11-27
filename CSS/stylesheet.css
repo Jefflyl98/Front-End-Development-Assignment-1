@@ -41,6 +41,7 @@ a:hover{
 ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
     padding: 0;
     margin: 5px;
 }
@@ -61,7 +62,7 @@ ul {
 @media (max-width:820px){
      /* smartphones, Android phones, landscape iPhone */ 
      body{
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .header_inner {
@@ -71,7 +72,7 @@ ul {
 
 @media (max-width:480px) {
     body{
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .header_inner {
@@ -82,10 +83,15 @@ ul {
 }
 
 
+
+
+
+
+
 /* Navigation Bar CSS */
 #main_nav{
     background-color: rgba(176, 178, 181, 0.4);
-    margin-left: 50px;
+    
 }
 
 #main_nav li {
@@ -93,9 +99,12 @@ ul {
 }
 
 #header_r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(176, 178, 181, 0.4);;
-    margin-right: 50px;
 }
+
 
 #header_r li{
     margin-right: 10px;
@@ -111,13 +120,13 @@ ul {
     /* smartphones, Android phones, landscape iPhone */ 
     
     #main_nav{
-        margin-left: 5px;
+        margin: 0;
     }
 
     #header_r{
-        margin-right: 5px;
+        margin: 0;
     }
-    
+
     #header_r li{
         margin-right: 5px;
         margin-left: 5px;
@@ -128,6 +137,11 @@ ul {
         height: 15px;
     }
 }
+
+
+
+
+
 
 /* index.html CSS */
 
@@ -162,22 +176,27 @@ ul {
     }
 }
 
+@media (max-width:600px){
+    #bg_main img{
+        content: url(../IMAGE/Selen_Tatsuki_MobileBanner.png);
+    }
+}
+
 
 
 /* streams.html CSS */
 .content {
     margin-left: 5vh;
     margin-right: 5vh;
-    height: 100vh;
+    height: 100%;
 }
 
 .lines {
     content: "";
     margin: auto;
-    width: 95%;
+    width: 100%;
     height: 2px;
     background: #B93429;
-    position: absolute;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -209,15 +228,10 @@ span.date{
     font-size: 25px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
 }
 
-@media (max-width:820px){   
-    .lines {
-        width: 90%;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    
+@media (max-width:820px){       
     .content button{
         padding: 10px 20px;
     }
@@ -228,13 +242,15 @@ span.date{
     
     .event_name {
         font-size: 15px;
-        width: 50%;
     }
 }
 
 @media (max-width:480px) {
+    .content{
+        height: 100vh;
+    }
+
     .lines{
-        width: 80%;
         margin-top: 3px;
         margin-bottom: 3px;
     }
@@ -244,12 +260,11 @@ span.date{
     }
 
     span.date{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .event_name{
         font-size: 12px;
-        width: 50%;
     }
 }
 
@@ -304,7 +319,8 @@ span.date{
 
 #personality{
     background-color: black;
-    margin: 10vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
     text-align: center;
 }
 
