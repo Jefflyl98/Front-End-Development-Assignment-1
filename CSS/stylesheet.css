@@ -348,9 +348,15 @@ span.date{
     justify-content: space-around;
 }
 
+#video_wrap {
+    text-align: center;
+    background-color: #292829;
+    width: 40%;
+}
+
 iframe{
     aspect-ratio: 16 /9;
-    width: 40%;
+    width: 100%;
 }
 
 @media (max-width:820px){
