@@ -55,9 +55,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - **HTML5** is the foundation of the website's structure and content
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
     - **CSS3** is reponsible for the website's visusal appearance, defining the styles for fonts, colors, layouts, etc.
-  - [Javascript](https://www.javascript.com)
+- [Javascript](https://www.javascript.com)
     - **Javascript** is employed for enhancing interactivity and adding features to website.
-  - [PHP](https://www.php.net)
+- [PHP](https://www.php.net)
     - **PHP** is used for server-side scripting.
 
 
@@ -115,6 +115,7 @@ https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki
 - https://www.hiclipart.com/free-transparent-background-png-clipart-iolii
 - https://drive.google.com/file/d/1KKLsWTzPtclgcn_kd-V3LnvWB4xg_0TY/view
 - https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki/Gallery
+- https://twitter.com/shei_babu/status/1559293400544907268/photo/1
 
 ### Acknowledgements
 
