@@ -79,8 +79,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const navLinks = mainNav.getElementsByTagName('a');
   for (let i = 0; i < navLinks.length; i++) {
     navLinks[i].addEventListener('click', function () {
-      mainNav.style.display = 'none';
-      headerR.style.display = 'block'; // Show header_r when a menu item is clicked (optional)
+      if (window.innerWidth < 820){
+        mainNav.style.display = 'none';
+        headerR.style.display = 'none';
+      }
     });
   }
 });
