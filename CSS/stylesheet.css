@@ -194,7 +194,7 @@ ul {
 
 @media (max-width:600px){
     #bg_main img{
-        content: url(../IMAGE/Selen_Tatsuki_MobileBanner.png);
+        content: url(../image/selen_tatsuki_mobilebanner.png);
     }
 }
 
