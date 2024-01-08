@@ -102,8 +102,8 @@ You should also mention in this section any interesting bugs or problems you dis
 - When submitting the contact form unable to access the php.
 
 ## Credits
-https://www.oneokrock.com/en/tour/
-https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki
+- https://www.oneokrock.com/en/tour/
+- https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki
 
 ### Content
 - The information for the about page comes from [Selen Tatsuki VTuber Wiki](https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki)
